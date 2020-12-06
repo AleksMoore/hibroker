@@ -1,0 +1,17 @@
+/* Fonts */
+
+
+@font-face {
+    font-family: 'Geometria';
+    src: local('Geometria'),
+         url('../fonts/Geometria.ttf');
+  }
+
+
+  @font-face {
+    font-family: 'Geometria-Bold';
+    src: local('Geometria-Bold'),
+         url('../fonts/Geometria-Bold.ttf');
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HiBroker</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="info" content="">
+	<meta name="keywords" content="">
+
+	<!-- CSS -->
+	<link href="./css/all.css" rel="stylesheet" type="text/css">
+	<!-- End CSS -->
+
+	<!-- Owl carousel CSS -->
+	<link href="./css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+	<link href="./css/owl.theme.default.css" rel="stylesheet" type="text/css">
+
+	<!-- JS -->
+	<script src="./js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="./js/all.js"></script>
+	<!-- End JS -->
+
+	<!-- Owl carousel JS -->
+	<script src="./js/owl.carousel.js"></script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<!-- End Favicon -->
+</head>
+<body>
+	<!-- Mobile menu -->
+	<nav class="mobile-menu">
+		<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+		<label class="btn-menu" for="hmt">
+			<span class="first"></span>
+			<span class="second"></span>
+			<span class="third"></span>
+		</label>
+		<ul class="hidden-menu"> 
+			<li><a class="header__link" href="">О нас</a></li> 
+			<li><a class="header__link" href="">Партнеры</a></li> 
+			<li><a class="header__link" href="">Контакты</a></li>  
+			<li><a class="header__link" href="">Партнерам</a></li> 
+		</ul>
+	</nav>
+	<!-- End Mobile Menu -->
+	<!-- Header -->
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__logo">
+				<a href="/">
+					<img src="/assets/images/logo.svg" alt="">
+				</a>
+			</div>
+			<div class="header__menu">
+				<ul class="header__links">
+					<li><a class="header__link" href="">О нас</a></li> 
+					<li><a class="header__link" href="">Партнеры</a></li> 
+					<li><a class="header__link" href="">Контакты</a></li>  
+					<li><a class="header__link" href="">Партнерам</a></li> 
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+	<!-- Form -->
+	<section class="form">
+		<div class="form__wrapper">
+			<div class="form__inner">
+				<div class="form__tabs">
+					<h2>Рассчёт страховки</h2>
+					<ul class="form__caption">
+					  <li class="active">Осаго</li>
+					  <li>Медицина</li>
+					  <li>Жизнь</li>
+					  <li>Недвижимость</li>
+					  <li>Путешествия</li>
+					</ul>
+					<div class="form__content active">
+					  	<form>
+							<div class="form__input_string">
+								<input placeholder="Номер автомобиля" type="text" required>
+							</div>
+							<div class="form__input_checkbox">
+								<input class="form__checkbox_custom" type="checkbox" required>
+								<label>Нет номера автомобиля</label>
+							</div>
+							<div class="form__input_string">
+								<select required>
+								<option disabled selected>Тип транспортного средства</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							   </select>
+							</div>  
+							<button>Рассчитать</button>
+						</form>
+					</div>
+					<div class="form__content">
+						<form>
+							<div class="form__input_string">
+								<input placeholder="Фамилия Имя Отчество" type="text" required>
+							</div>
+							<div class="form__input_string">
+								<select required>
+								<option disabled selected>Возраст</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							   </select>
+							</div>  
+							<button>Рассчитать</button>
+						</form>
+					</div>
+					<div class="form__content">
+						<form>
+							<div class="form__input_string">
+								<input placeholder="Фамилия Имя Отчество" type="text" required>
+							</div>
+							<div class="form__input_string">
+								<select required>
+								<option disabled selected>Возраст</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							   </select>
+							</div>  
+							<button>Рассчитать</button>
+						</form>
+					</div>
+					<div class="form__content">
+						<form>
+							<div class="form__input_string">
+								<input placeholder="Вид объекта" type="text" required>
+							</div>
+							<div class="form__input_string">
+								<input placeholder="Кв. м" type="text" required>
+							</div>  
+							<button>Рассчитать</button>
+						</form>
+					</div>
+					<div class="form__content">
+						<form>
+							<div class="form__input_string">
+								<input placeholder="Название страны" type="text" required>
+							</div>
+							<div class="form__double-select">
+								<select required>
+								<option disabled selected>Туда</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							   </select>
+
+							   <select required>
+								<option disabled selected>Обратно</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							   </select>
+							</div>  
+							<div class="form__input_checkbox">
+								<input class="form__checkbox_custom" type="checkbox" required>
+								<label>Годовой полис</label>
+							</div>
+							<button>Рассчитать</button>
+						</form>
+					</div>
+				  </div>
+			</div>
+		</div>
+	</section>
+	<!-- End Form -->
+	<!-- Types -->
+	<section class="types">
+		<div class="types__wrapper">
+			<div class="types__items">
+				<div class="types__item">
+					<div class="types__img">
+						<img class="types__picture" src="/assets/images/types/1.svg" alt="">
+						<img class="types__picture_hover" src="/assets/images/types/hover/1.svg" alt="">
+					</div>
+					<div class="types__description">
+						<h2>Оформить ОСАГО онлайн</h2>
+						<p>Экономь! Получи лучшее предложение по ОСАГО</p>
+						<a href="">Оформить</a>
+					</div>
+				</div>
+				<div class="types__item">
+					<div class="types__img">
+						<img class="types__picture" src="/assets/images/types/2.svg" alt="">
+						<img class="types__picture_hover" src="/assets/images/types/hover/2.svg" alt="">
+					</div>
+					<div class="types__description">
+						<h2>Страховка от COVID-19</h2>
+						<p>Будь уверен! Получи лучшее лечение</p>
+						<a href="">Оформить</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Types -->
+	<!-- About -->
+	<section class="about">
+		<div class="about__wrapper">
+			<div class="about__img">
+				<picture>
+					<source srcset="/assets/images/about/img.png" media="(min-width: 760px)">
+					<img src="/assets/images/about/img-mobile.png" alt="">
+				</picture>
+			</div>
+			<div class="about__text">
+				<div class="about__inner">
+					<h2>О нас</h2>
+						<p>Happy Insurance Broker – это самый технологичная простая и удобная платформа для покупок страховок онлайн. Компания была создана в 2018 году. Платформа объединила услуги 14 ведущих страховых компаний в стране, и за последний год продуктами нашей платформы воспользовалось более 1000000 клиентов. </p>
+							
+						<p>Happy Insurance Broker (ООО «Хэппиленд Страхование) предлагает своим клиентам разнообразный набор страховых продуктов в он-лайне. Оформление занимает всего полторы минуты за счет встроенных инновационных технологий. </p>
+							
+						<p>Happy Insurance Broker предоставляет своим клиентам возможность выбирать быстрое, удобное и выгодное предложение по страхованию онлайн. </p>
+							
+						<p>С нами сотрудничают крупнейшие организации из разных направлений.
+						</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About -->
+	<!-- Company -->
+	<section class="company">
+		<div class="company__wrapper">
+			<div class="company__items">
+				<div class="company__item">
+					<div class="company__img">
+						<img src="/assets/images/company/1.png" alt="">
+					</div>
+					<div class="company__description">
+						<p>
+						<strong>
+								Один из крупнейших сотовых операторов Билайн
+						</strong>
+						</p>
+						<p>
+							Страховать своих клиентов в сегменте ЕОСАГО нам доверяет лидер среди сотовых операторов - Билайн.
+						</p>
+					</div>
+				</div>
+				<div class="company__item">
+					<div class="company__img">
+						<img src="/assets/images/company/2.png" alt="">
+					</div>
+					<div class="company__description">
+						<p>
+						<strong>
+							Крупнейшая спортивная любительская лига АФЛ
+						</strong>
+						</p>
+						<p>
+							Happy Insurance Broker сотрудничает с крупнейшей спортивной любительской лигой «AFL», под крылом которой в общей сложности выступает более 2000000 спортсменов, о здоровье которых заботится наша компания
+						</p>
+					</div>
+				</div>
+				<div class="company__item">
+					<div class="company__img">
+						<img src="/assets/images/company/3.png" alt="">
+					</div>
+					<div class="company__description">
+						<p>
+						<strong>
+							Ведущая технологическая компания в сфере онлайн кредитования Happylend
+						</strong>
+						</p>
+						<p>
+							Cамый технологичный лидер в сфере онлайн кредитования покупок товаров и услуг
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Company -->
+	<!-- Partners -->
+	<section class="partners">
+		<div class="partners__wrapper">
+			<h2>Наши партнеры</h2>
+			<p>Мы сотрудничаем с крупнейшими страховыми компаниями</p>
+			<div class="partners__items">
+				<div class="partners__item">
+					<img src="/assets/images/partners/1.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/2.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/3.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/4.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/5.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/6.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/7.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/8.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/9.png" alt="">
+				</div>
+				<div class="partners__item">
+					<img src="/assets/images/partners/10.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Partners -->
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__menu">
+				<ul class="footer__links">
+					<li class="footer__link">
+						<a href="">ОСАГO</a>
+					</li>
+					<li class="footer__link">
+						<a href="">Страхование от коронавируса</a>
+					</li>
+					<li class="footer__link">
+						<a href="">Партнеры</a>
+					</li>
+					<li class="footer__link">
+						<a href="">Бизнес партнерам</a>
+					</li>
+					<li class="footer__link">
+						<a href="">Бизнес партнерам</a>
+					</li>
+					<li class="footer__link">
+						<a href="">Политика конфиденциальности</a>
+					</li>
+					<li class="footer__link">
+						<a href="">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__inner">
+				<div class="footer__info">
+					<p>
+						<strong>
+							Служба заботы о клиентах
+						</strong>
+					</p>
+					<a href="te:+74954192015">+7 (495) 419-20-15</a>	
+					<p>
+						Ежедневно с 9:00 до 21:00 по МСК
+					</p>
+				</div>
+				<div class="footer__copyright">
+					© 2009–2020, ООО «Хэппиленд Страхование”.
+					При использовании материалов гиперссылка на hibroker.ru обязательна.<br>
+					ИНН 7726443929, ОГРН 1187746967550.<br>
+					115088, г. Москва, ул. Шарикоподшипниковская, д. 13, стр. 2, 5 этаж, пом. VII, комн. № 25
+				</div>
+				<div class="footer__logo">
+					<a href="/">
+						<img src="/assets/images/logo-color.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+</body>
+</html>

@@ -1,0 +1,327 @@
+/* Laptops & Mobile */
+
+@media(max-width: 760px){
+    body{
+        min-width: auto;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .header{
+        padding: 40px 20px 30px;
+
+        &__menu{
+            display: none;
+        }
+    }
+
+    .form{
+        padding: 20px 20px;
+        background: url(../assets/images/bg-mobile.jpg) center top no-repeat;
+        background-size: cover;
+
+        &__inner{
+            border-radius: 73px;
+        }
+
+        &__tabs{
+            padding: 60px 25px;
+
+            & h2{
+                font-size: 24px;
+                line-height: 30px;
+                margin: 0 0 35px;
+            }
+
+            & ul{
+
+                & li{
+                    margin-bottom: 10px;
+                    padding: 0 20px;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &__caption{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        &__input{
+
+            &_string{
+                font-size: 14px;
+                line-height: 18px;  
+            }
+        }
+
+        &__checkbox{
+
+            &_custom{
+
+                & + label{
+                    font-size: 12px;
+                    line-height: 15px;
+                }
+            }
+        }
+
+        &__double-select{
+            font-size: 14px;
+            line-height: 18px; 
+
+            & select{
+                max-width: 40%;
+            }
+        }
+    }
+
+    .types{
+
+        &__items{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item{
+            max-width: 100%;
+            padding: 45px 20px;
+            box-sizing: border-box;
+            height: auto;
+
+            &:hover{
+                background: inherit;
+
+                .types__picture{
+                    display: block;
+                }
+    
+                .types__picture_hover{
+                    display: none;
+                }
+            }
+
+            &:nth-child(2){
+                background: #FF9975;
+
+                .types__picture{
+                    display: none;
+                }
+    
+                .types__picture_hover{
+                    display: block;
+                }
+
+                .types__description h2,p,a{
+                    color: #0F2340;
+                }
+
+                .types__description a{
+
+                    &:after{
+                        background: url(../assets/images/arrow-blue.svg) top center no-repeat;
+                    }
+                }
+            }
+        }
+
+        &__img{
+            height: auto;
+            max-width: 240px;
+            margin-bottom: 40px;
+
+            & img{
+                width: 100%;
+            }
+        }
+
+        &__description{
+
+            & h2{
+                font-size: 24px;
+                line-height: 29px;
+                margin: 0 0 15px;
+            }
+
+            & p{
+                font-size: 18px;
+                line-height: 23px;
+                max-width: 260px;
+                margin: 0 0 20px;
+            }
+        }
+    }
+
+    .about{
+        
+        &__wrapper{
+            flex-direction: column;
+        }
+
+        &__img{
+            max-width: 100%;
+        }
+
+        &__text{
+            padding: 50px 20px 70px;
+            box-sizing: border-box;
+        }
+
+        &__inner{
+            max-width: 100%;
+
+            & h2{
+                font-size: 36px;
+                line-height: 44px;
+                margin: 0 0 20px;
+            }
+
+            & p{
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0 0 15px;
+            }
+        }
+    }
+
+    .company{
+        padding: 0;
+
+        &__items{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item{
+            max-width: 100%;
+            padding: 30px 20px;
+
+            &:nth-child(2){
+                background: #00243C;
+
+                & p{
+                    color: #fff;
+                }
+            }
+        }
+
+        &__img{
+            height: auto;
+            margin-bottom: 15px;
+            
+            & img{
+                margin: auto;
+                width: 100%;
+                max-width: 220px;
+            }
+        }
+
+        &__description{
+            
+            & p{
+                font-size: 14px;
+                line-height: 17px;
+                margin: 0 0 15px;
+            }
+        }
+    }
+
+    .partners{
+        padding: 55px 20px 80px;
+
+        &__wrapper{
+
+            & h2{
+                font-size: 36px;
+                line-height: 44px;
+                margin: 0 0 20px;
+            }
+
+            & p{
+                font-size: 18px;
+                line-height: 23px;
+                margin: 0 0 40px;
+            }
+        }
+
+        &__items{
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &__item{
+            max-width: 50%;
+        }
+    }
+
+    .footer{
+        padding: 30px 20px 70px;
+
+        &__links{
+            flex-direction: column;
+            margin: 0 0 40px;
+        }
+
+        &__link{
+            margin-bottom: 23px;
+
+            &:last-child{
+                margin: 0;
+            }
+        }
+
+        &__inner{
+            flex-direction: column;
+        }
+
+        &__info{
+            margin-bottom: 23px;
+
+            & p{
+                font-size: 18px;
+                line-height: 23px;
+            }
+        }
+
+        &__copyright{
+            max-width: 270px;
+            width: 100%;
+            font-size: 14px;
+            line-height: 18px;
+            margin: 0 0 40px;
+        }
+
+        &__logo{
+            align-self: flex-start;
+
+            & img{
+                max-width: 140px;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .partners{
+
+        &__item{
+            max-width: 48%;
+
+            & img{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media(max-width: 375px){
+
+}
